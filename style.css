@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    width: 230px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+#ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    word-break: break-word;
+}
+
+li {
+    border: solid #007bff 1px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    padding: 12px;
+    margin-bottom: 6px;
+}
+
+#btn{
+    background-color: #007bff;
+    color: white;
+}
+
+#input{
+    border-color: #007bff;
+}
+
+.send {
+    
+}
